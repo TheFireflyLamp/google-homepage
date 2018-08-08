@@ -2,20 +2,18 @@
     margin: auto;
     width: 50%;
 }
-.offer{
-    display: table;
-    margin: 0 auto;
-}
 
-ul#horizontal-list {
-    min-width: 700px;
-    list-style: none;
-    padding-top: 20px;
-}
 
 ul#horizontal-list li {
     display:inline-block;
-    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 175px;
+    font-family: "Helvetica";
+    font-size: 75%;
+    padding-left: 15px;
+    
 }
 
 .topnav {
@@ -46,6 +44,42 @@ ul#horizontal-list li {
     position: relative;
     top: 170px;
     background: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/200px-Google_mic.svg.png";
-    background-repeat: no-repeat;
+    background-repeat: no-repeat scroll 7px 7px;
     background-position: right;
+}
+
+button {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: dimgray;
+    border-style: ;
+    
+}
+
+.button1, .button2 {
+    display:block;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    top: 200px;
+    height: 35px;
+    width: 130px;
+    left: -75px;
+    
+}
+
+.button2 {
+    top: 165px;
+    height: 35px;
+    width: 145px;
+    left: 70px;
+}
+
+a {
+    font-family: "Helvetica";
+    text-decoration: none;
+    color:navy;
 }
