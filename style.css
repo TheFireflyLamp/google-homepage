@@ -3,16 +3,22 @@
     width: 50%;
 }
 
-
-ul#horizontal-list li {
-    display:inline-block;
+.offer {
+    display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 175px;
+    top: 170px;
+}
+
+ul#horizontal-list li {
+    display:inline-block;
+    position: relative;
     font-family: "Helvetica";
     font-size: 75%;
     padding-left: 15px;
+    left: -30px;
     
 }
 
@@ -24,9 +30,25 @@ ul#horizontal-list li {
 .topnav a {
     float:right;
     display:inline;
-    padding: 14px 16px;
+    margin-top: 5px;
+    padding: 10px 10px;
+    font-size: 0.8em;
+    color: black;
 }
 
+.topnav .signin {
+    display: block;
+    height: 30px;
+    width: 70px;
+    position:relative;
+    top: -7px;
+    left: -13px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 1em;
+    border-radius: 2px;
+    
+}
 .logo {
     display:block;
     margin-left: auto;
@@ -43,16 +65,18 @@ ul#horizontal-list li {
     width: 480px;
     position: relative;
     top: 170px;
-    background: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/200px-Google_mic.svg.png";
-    background-repeat: no-repeat scroll 7px 7px;
-    background-position: right;
+    border: 0.2px;
+    box-shadow: 1px 1px 5px #DEDEDE;
+    background: none;
+    
 }
 
 button {
     font-weight: bold;
     font-size: 0.8em;
     color: dimgray;
-    border-style: ;
+    background-color: #F3F3F3;
+    border-color: transparent;
     
 }
 
@@ -65,21 +89,94 @@ button {
 
 .button1 {
     top: 200px;
-    height: 35px;
-    width: 130px;
+    height: 37px;
+    width: 125px;
     left: -75px;
     
 }
 
 .button2 {
-    top: 165px;
-    height: 35px;
-    width: 145px;
-    left: 70px;
+    top: 163px;
+    height: 37px;
+    width: 140px;
+    left: 65px;
 }
 
 a {
     font-family: "Helvetica";
     text-decoration: none;
     color:navy;
+}
+
+.squares {
+    height: 25px;
+    position: relative;
+    top: -5px;
+    left: -8px;
+    opacity: 0.6;
+    
+    
+}
+
+.mic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:20px;
+    width: 14px;
+    position: relative;
+    top: 293px;
+    left: 210px;
+}
+
+.botnav1a {
+    overflow:hidden;
+    background-color: #F1F1F1;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.botnav1a a {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    top: 10px;
+    font-size: 0.8em;
+}
+
+.botnav1b {
+    overflow:hidden;
+    background-color: transparent;
+}
+
+.botnav1b a {
+    float: right;
+    display:inline
+}
+
+.botnav2 {
+    overflow:hidden;
+    background-color: #F1F1F1;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    border-color: grey;
+    border-bottom: 2px;
+}
+
+.botnav2 a {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    top: 10px;
+    font-size: 0.9em;
 }
