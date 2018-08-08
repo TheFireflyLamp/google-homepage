@@ -1,0 +1,51 @@
+.main{
+    margin: auto;
+    width: 50%;
+}
+.offer{
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    min-width: 700px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li {
+    display:inline-block;
+    padding-left: 30px;
+}
+
+.topnav {
+    overflow:hidden;
+    background-color: transparent;
+}
+
+.topnav a {
+    float:right;
+    display:inline;
+    padding: 14px 16px;
+}
+
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 140px
+}
+
+.searchbox {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 480px;
+    position: relative;
+    top: 170px;
+    background: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/200px-Google_mic.svg.png";
+    background-repeat: no-repeat;
+    background-position: right;
+}
