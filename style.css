@@ -34,6 +34,7 @@ ul#horizontal-list li {
     padding: 10px 10px;
     font-size: 0.8em;
     color: black;
+    -webkit-transition: 0.05s linear;
 }
 
 .topnav .signin {
@@ -62,7 +63,7 @@ ul#horizontal-list li {
     margin-left: auto;
     margin-right: auto;
     height: 40px;
-    width: 480px;
+    width: 430px;
     position: relative;
     top: 170px;
     border: 0.2px;
@@ -70,7 +71,15 @@ ul#horizontal-list li {
     border-color: lightgrey;
     box-shadow: 1px 1px 5px #DEDEDE;
     background: none;
+    font-size: 1em;
+    text-indent: 10px;
+    padding-right: 50px;
+    -webkit-transition: 0.05s linear
     
+}
+
+.searchbox:hover {
+    box-shadow: 3px 3px 3px #DDDDDD;
 }
 
 button {
@@ -87,6 +96,8 @@ button {
     position:relative;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 2px;
+    -webkit-transition: 0.1s linear;
 }
 
 .button1 {
@@ -115,7 +126,8 @@ a {
     position: relative;
     top: -5px;
     left: -8px;
-    opacity: 0.6;
+   opacity: 0.6;
+    -webkit-transition: 0.1s linear;
     
     
 }
@@ -127,7 +139,7 @@ a {
     height:20px;
     width: 14px;
     position: relative;
-    top: 293px;
+    top: 138px;
     left: 210px;
 }
 
@@ -158,9 +170,11 @@ a {
     overflow:hidden;
     background-color: transparent;
     height: 40px;
-    width: 100%;
+    width: 50%;
     position: absolute;
     bottom: 0px;
+    right: 0px;
+    float: right;
     text-align: right;
 }
 
@@ -174,7 +188,10 @@ a {
     padding-right: 20px;
     font-size: 0.8em;
     color: gray;
+    -webkit-transition: 1s linear;
+  
 }
+
 
 .botnav2 {
     background-color: #F1F1F1;
@@ -199,5 +216,40 @@ a {
     left: 10px;
     top: 10px;
     font-size: 0.9em;
-    color:gray
+    color:gray;
+    cursor:text;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.botnav2 a:hover {
+    text-decoration: none;
+}
+
+.topnav a.links:hover {
+    color: grey;
+}
+
+
+ .topnav a.signinbutton:hover {
+    text-decoration: none;
+}
+
+.topnav img:hover {
+    opacity: 1;
+}
+
+.button1:hover {
+    color: black;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid:
+}
+
+.button2:hover {
+    color: black;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid:
 }
